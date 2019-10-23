@@ -1,0 +1,131 @@
+@import url("http://fonts.googleapis.com/css?family=Jomolhari|Open+Sans:400,300,700|Poppins:100,400,700&display=swap|Poppins:100&display=swap");
+
+ /* Positioning */
+ /* Box-model */
+ /* Typography */
+ /* Visual */
+
+
+/*container for responsive design*/
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+/* Colors and fonts */
+body {
+  background: linear-gradient(#e66465, #9198e5);
+  background-size:cover;
+  /*#e8e8e8;*/
+  color: #0a0a1f;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200; /* if you want the light version */
+  font-size: 18px;
+  line-height: 18px;
+/*  margin-left: 100px;*/
+}
+body {
+
+}
+
+/* Headers */
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+}
+h1 {
+  color: #f54242;
+  font-family: 'Jomolhari', serif;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 64px;
+}
+h2 {
+  color: #f54242;
+  font-family: 'Jomolhari', serif;
+  font-size: 20px;
+  font-weight: lighter;
+  font-weight: 400;
+  line-height: 20px;
+}
+h3 {
+  color: #0a0a1f;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 18px;
+
+}
+
+a {
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  color: #f54242;
+  font-weight: 400;
+  font-size: 16px;
+}
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.img-circle {
+  border-radius:50%;
+}
+
+.shadowed {
+  box-shadow: 3px 3px 0 #0a0a1f
+}
+
+.card-white {
+  /*width: 700px;*/
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.list-inline > li {
+/*  max-width: 100px;*/
+  display: flex;
+/*  flex-direction: row;*/
+  align-items: center;
+  justify-content: center;
+/*  flex-wrap: wrap;*/
+/*  align-content;
+  justify-content: space-between;*/
+/*  display: inline-block;*/
+  list-style: none;
+  padding: 0px 20px;
+}
+
+ul.list-inline i {
+font-size: 20px;
+margin-right: 12px;
+}
+
+/*.list-inline {
+  list-style: none;
+  padding-left: 50px;
+}
+*/
+
